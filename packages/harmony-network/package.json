@@ -1,0 +1,27 @@
+{
+  "name": "@harmony-js/network",
+  "version": "0.1.55",
+  "description": "network suites for harmony",
+  "main": "dist/index.js",
+  "node": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "neeboo@firestack.one",
+  "license": "MIT",
+  "dependencies": {
+    "@harmony-js/utils": "0.1.55",
+    "cross-fetch": "^3.0.2",
+    "mitt": "^1.2.0",
+    "websocket": "^1.0.28"
+  },
+  "gitHead": "56606e9365721729a490c27d6a294e0daf90fbdf"
+}

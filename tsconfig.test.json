@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "include": ["./typings/**/*.d.ts"],
+  "references": [
+    { "path": "packages/harmony-utils" },
+    { "path": "packages/harmony-crypto" },
+    { "path": "packages/harmony-network" },
+    { "path": "packages/harmony-transaction" },
+    { "path": "packages/harmony-staking" },
+    { "path": "packages/harmony-account" },
+    { "path": "packages/harmony-contract" },
+    { "path": "packages/harmony-core" }
+  ]
+}
